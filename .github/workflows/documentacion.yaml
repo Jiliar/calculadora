@@ -8,6 +8,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+     - name: Greeting
+       uses: Jiliar/hello-world-js-action@v1.0
+       with:
+          who-to-greet: 'JianSyStyle'
+    
      - name: Checkout
        uses: actions/checkout@v4.2.2
        
